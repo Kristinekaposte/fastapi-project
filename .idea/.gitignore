@@ -1,0 +1,33 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Virtual environment
+venv/
+.env
+
+# Compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE configuration
+.idea/
+.vscode/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Log files
+*.log
+
+# PyCharm specific
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# FastAPI specific
+*.db
