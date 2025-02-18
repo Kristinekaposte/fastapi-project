@@ -54,6 +54,7 @@ To create a new user, send a `POST` request to `/user/` with the following JSON 
   "password": "securepassword"
 }
 
+```
 
 ## Notes
 After starting server fastapi-practise.db will appear can be run by TablePlus or any other database management tool.
