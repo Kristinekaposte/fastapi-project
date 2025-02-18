@@ -1,0 +1,9 @@
+# THIS CONTAINS ALL THE REQUIRED LIBRARIES THAT WE NEED  FOR OUR PEOJCT TO RUN
+# WE CAN INSTALL ALL THE LIBRARIES BY RUNNING THE COMMAND: pip install -r requirements.txt
+fastapi
+# uvicorn is the server that we'll use to run our FastAPI application
+# to run the server we'll use the command: uvicorn main:app --reload
+uvicorn
+sqlalchemy
+passlib
+bcrypt
