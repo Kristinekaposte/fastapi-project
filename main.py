@@ -3,13 +3,14 @@ from fastapi.exceptions import HTTPException
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse, PlainTextResponse
 from exceptions import StoryException
-from router import blog_get, blog_post
+from router import blog_get, blog_post, article, product, user
 from db import models
 from db.database import engine
-from router import article, product, user
+from auth import authentication
 
 # run server with: uvicorn main:app --reload
 app = FastAPI()
+app.include_router(authentication.router)
 app.include_router(blog_get.router)
 app.include_router(blog_post.router)
 app.include_router(user.router)
