@@ -19,6 +19,3 @@ def index():
 
 # Create the database tables
 models.Base.metadata.create_all(engine)
-
-
-
